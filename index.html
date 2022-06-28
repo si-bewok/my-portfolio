@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio | M. Zhafari</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#scrollSpy" data-bs-smooth-scroll="true" tabindex="0">
+    <section id="hero">
+      <h1 class="hero-text-1 text-white">Muhammad</h1>
+      <h1 class="hero-text-2 text-white">Zhafari</h1>
+      <div class="hero-btn">
+        <a class="hero-button letter-spacing" href="#about">Get to know me</a>
+      </div>
+    </section>
+
+    <main>
+      <section id="about">
+        <div class="container p-5">
+          <!-- title -->
+          <div class="row mb-5">
+            <div class="col-md text-center">
+              <h2 class="fw-bold fst-italic text-uppercase letter-spacing">About Me</h2>
+            </div>
+          </div>
+
+          <!-- article -->
+          <div class="row">
+            <div class="col-md-10 offset-md-1 fs-5 mt-4">
+              <p>Hello! My name is Muhammad Zhafari. I am a fresh graduate from Information System Major and have interest on Backend Development.</p>
+              <p>I always feel enthusiastic and passionate when learning new things, one of which is the development of web technology.</p>
+              <p>When i have free time, i like to entertain myself by watching movies and playing musical instruments and guitar is one of my favorite's. And sometimes i do sports, like running, swimming, and table tennis.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill">
+        <div class="container p-5 fs-5">
+          <!-- title -->
+          <div class="row mb-5">
+            <div class="col-md text-center">
+              <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Skills</h2>
+            </div>
+          </div>
+
+          <!-- table -->
+          <div class="row">
+            <div class="col-md-10 offset-md-2">
+              <table class="table table-borderless table-responsive-md">
+                <thead>
+                  <tr>
+                    <th scope="col">Basics</th>
+                    <th scope="col">Tools</th>
+                    <th scope="col">Frameworks</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>VS Code</td>
+                    <td>CodeIgniter</td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td>Git</td>
+                    <td>Bootstrap</td>
+                  </tr>
+                  <tr>
+                    <td>Javascript</td>
+                    <td>GitHub</td>
+                  </tr>
+                  <tr>
+                    <td>PHP</td>
+                    <td>Composer</td>
+                  </tr>
+                  <tr>
+                    <td>MySQL</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project">
+        <div class="container p-5">
+          <!-- title -->
+          <div class="row mb-5">
+            <div class="col-md text-center">
+              <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Project</h2>
+            </div>
+          </div>
+
+          <!-- content -->
+          <div class="row">
+            <div class="col-md-10 offset-1">
+              <div id="carouselProject" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="img/siska-login.png" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Login Page</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/siska-dashboard.png" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Dashboard Page</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/siska-stok.png" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Inventory Page</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/siska-transaksi.png" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Transaction Page</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="img/siska-laporan.png" class="d-block w-100" />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Report Page</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProject" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <p class="mt-4 fs-5 text-white">
+                SISKA is a web-based inventory information system that i built in my thesis project. This system was built using CodeIgniter 4 and Bootstrap 5, which aims to help and simplify the process of recording and processing
+                inventory data at PT. Sukses Kita Abadi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container p-5">
+          <!-- title -->
+          <div class="row mb-5">
+            <div class="col-md text-center">
+              <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Contact Me</h2>
+            </div>
+          </div>
+
+          <!-- content -->
+          <div class="row mb-5">
+            <div class="col-md-10 offset-md-1">
+              <p class="mb-3 text-white fs-5">If you'd like to work with me, would like more information, or if you'd like to chat, then email me to get in touch.</p>
+            </div>
+          </div>
+          <form action="contactme.php" method="post">
+            <div class="row g-3">
+              <div class="col-md-4 offset-md-2">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name" />
+                  <label for="firstname">First name</label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-floating">
+                  <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last name" />
+                  <label for="lastname">Last name</label>
+                </div>
+              </div>
+              <div class="col-md-8 offset-md-2">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" />
+                  <label for="email">Email address</label>
+                </div>
+              </div>
+              <div class="col-md-8 offset-md-2">
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a your message here" id="message" name="message"></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid col-8 mx-auto mt-3">
+              <button type="submit" class="contact-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
