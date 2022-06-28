@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Portfolio | M. Zhafari</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body data-bs-spy="scroll" data-bs-target="#scrollSpy" data-bs-smooth-scroll="true" tabindex="0">
@@ -12,7 +13,7 @@
       <h1 class="hero-text-1 text-white">Muhammad</h1>
       <h1 class="hero-text-2 text-white">Zhafari</h1>
       <div class="hero-btn">
-        <a class="hero-button letter-spacing" href="#about">Get to know me</a>
+        <a class="hero-button" href="#about">Get to know me</a>
       </div>
     </section>
 
@@ -30,7 +31,7 @@
           <div class="row">
             <div class="col-md-10 offset-md-1 fs-5 mt-4">
               <p>Hello! My name is Muhammad Zhafari. I am a fresh graduate from Information System Major and have interest on Backend Development.</p>
-              <p>I always feel enthusiastic and passionate when learning new things, one of which is the development of web technology.</p>
+              <p>I always feel enthusiastic and passionate when learning new things, one of which is the technology of web development.</p>
               <p>When i have free time, i like to entertain myself by watching movies and playing musical instruments and guitar is one of my favorite's. And sometimes i do sports, like running, swimming, and table tennis.</p>
             </div>
           </div>
@@ -147,8 +148,8 @@
                 </button>
               </div>
               <p class="mt-4 fs-5 text-white">
-                SISKA is a web-based inventory information system that i built in my thesis project. This system was built using CodeIgniter 4 and Bootstrap 5, which aims to help and simplify the process of recording and processing
-                inventory data at PT. Sukses Kita Abadi.
+                SISKA is a web-based inventory information system that i built in my thesis project. This system was built using <strong>CodeIgniter</strong> and <strong>Bootstrap</strong>, which aims to help and simplify the process of
+                recording and processing inventory data at PT. Sukses Kita Abadi.
               </p>
             </div>
           </div>
@@ -170,42 +171,16 @@
               <p class="mb-3 text-white fs-5">If you'd like to work with me, would like more information, or if you'd like to chat, then email me to get in touch.</p>
             </div>
           </div>
-          <form action="contactme.php" method="post">
-            <div class="row g-3">
-              <div class="col-md-4 offset-md-2">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First name" />
-                  <label for="firstname">First name</label>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last name" />
-                  <label for="lastname">Last name</label>
-                </div>
-              </div>
-              <div class="col-md-8 offset-md-2">
-                <div class="form-floating">
-                  <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" />
-                  <label for="email">Email address</label>
-                </div>
-              </div>
-              <div class="col-md-8 offset-md-2">
-                <div class="form-floating">
-                  <textarea class="form-control" placeholder="Leave a your message here" id="message" name="message"></textarea>
-                  <label for="message">Message</label>
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-md-4 offset-1">
+              <a class="btn btn-lg btn-outline-light" href="mailto:zhafari.work@gmail.com?subject=Hello,%20Zhafari!">Email me</a>
+              <a class="btn btn-lg btn-outline-light" href="#" role="button" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a class="btn btn-lg btn-outline-light" href="https://github.com/si-bewok" role="button" target="_blank"><i class="bi bi-github"></i></a>
             </div>
-            <div class="d-grid col-8 mx-auto mt-3">
-              <button type="submit" class="contact-btn">Send</button>
-            </div>
-          </form>
+          </div>
         </div>
       </section>
     </main>
-
-    <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
