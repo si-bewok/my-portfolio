@@ -16,39 +16,25 @@ body {
 }
 
 .hero-text-1 {
-  font-family: "Bungee Shade", cursive;
+  font-family: "Bungee Shade";
   font-size: 60px;
   letter-spacing: 5px;
-  position: absolute;
-  top: 35%;
-  left: 5%;
 }
 
 .hero-text-2 {
-  font-family: "Bungee Shade", cursive;
+  font-family: "Bungee Shade";
   font-size: 60px;
   letter-spacing: 5px;
-  position: absolute;
-  top: 35%;
-  right: 10%;
 }
 
-@media only screen and (max-width: 600px) {
-  .hero-text-1 {
-    font-size: 20px;
-    top: 50%;
-  }
-
-  .hero-text-2 {
-    font-size: 20px;
-    top: 50%;
-  }
+.hero-button {
+  transition-duration: 0.3s;
 }
 
-.hero-btn {
-  position: absolute;
-  bottom: 5%;
-  left: 43.5%;
+.hero-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.1, 1.1);
+  background-color: rgb(220, 220, 220);
 }
 
 .letter-spacing {
@@ -117,24 +103,18 @@ body {
   background-color: rgba(102, 252, 241, 0.7);
 }
 
-.hero-button {
-  background-color: whitesmoke;
-  color: black;
-  width: 120%;
-  text-decoration: none;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 8px;
-  border: none;
-  transition-duration: 0.3s;
-  display: inline-block;
-  padding: 5px;
-}
+@media (max-width: 1200px) {
+  .hero-text-1 {
+    font-size: 30px;
+    text-align: center;
+  }
 
-.hero-button:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transform: scale(1.1, 1.1);
-  color: black;
-  background-color: rgb(220, 220, 220);
+  .hero-text-2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #about {
+    height: 100%;
+  }
 }

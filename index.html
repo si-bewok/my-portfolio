@@ -10,10 +10,23 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#scrollSpy" data-bs-smooth-scroll="true" tabindex="0">
     <section id="hero">
-      <h1 class="hero-text-1 text-white">Muhammad</h1>
-      <h1 class="hero-text-2 text-white">Zhafari</h1>
-      <div class="hero-btn">
-        <a class="hero-button" href="#about">Get to know me</a>
+      <div class="container-fluid h-100">
+        <div class="row justify-content-around align-items-center h-75">
+          <div class="col-md-4 p-0">
+            <h1 class="hero-text-1 text-light">Muhammad</h1>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4 p-0">
+            <h1 class="hero-text-2 text-light">Zhafari</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center h-25">
+          <div class="col d-flex justify-content-center align-self-center pe-0 ps-3">
+            <div class="hero-btn">
+              <a class="btn btn-light fw-bold hero-button" href="#about">Get to know me</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -22,14 +35,14 @@
         <div class="container p-5">
           <!-- title -->
           <div class="row mb-5">
-            <div class="col-md text-center">
+            <div class="col text-center">
               <h2 class="fw-bold fst-italic text-uppercase letter-spacing">About Me</h2>
             </div>
           </div>
 
           <!-- article -->
-          <div class="row">
-            <div class="col-md-10 offset-md-1 fs-5 mt-4">
+          <div class="row justify-content-center">
+            <div class="col-10 fs-5 mt-4">
               <p>Hello! My name is Muhammad Zhafari. I am a fresh graduate from Information System Major and have interest on Backend Development.</p>
               <p>I always feel enthusiastic and passionate when learning new things, one of which is the technology of web development.</p>
               <p>When i have free time, i like to entertain myself by watching movies and playing musical instruments and guitar is one of my favorite's. And sometimes i do sports, like running, swimming, and table tennis.</p>
@@ -39,49 +52,51 @@
       </section>
 
       <section id="skill">
-        <div class="container p-5 fs-5">
+        <div class="container p-5">
           <!-- title -->
           <div class="row mb-5">
-            <div class="col-md text-center">
+            <div class="col text-center">
               <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Skills</h2>
             </div>
           </div>
 
           <!-- table -->
-          <div class="row">
-            <div class="col-md-10 offset-md-2">
-              <table class="table table-borderless table-responsive-md">
-                <thead>
-                  <tr>
-                    <th scope="col">Basics</th>
-                    <th scope="col">Tools</th>
-                    <th scope="col">Frameworks</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>HTML</td>
-                    <td>VS Code</td>
-                    <td>CodeIgniter</td>
-                  </tr>
-                  <tr>
-                    <td>CSS</td>
-                    <td>Git</td>
-                    <td>Bootstrap</td>
-                  </tr>
-                  <tr>
-                    <td>Javascript</td>
-                    <td>GitHub</td>
-                  </tr>
-                  <tr>
-                    <td>PHP</td>
-                    <td>Composer</td>
-                  </tr>
-                  <tr>
-                    <td>MySQL</td>
-                  </tr>
-                </tbody>
-              </table>
+          <div class="row fs-5">
+            <div class="col-sm-10 offset-md-2 offset-sm-1">
+              <div class="table-responsive">
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">Basics</th>
+                      <th scope="col">Tools</th>
+                      <th scope="col">Frameworks</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>HTML</td>
+                      <td>VS Code</td>
+                      <td>CodeIgniter</td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>Git</td>
+                      <td>Bootstrap</td>
+                    </tr>
+                    <tr>
+                      <td>Javascript</td>
+                      <td>GitHub</td>
+                    </tr>
+                    <tr>
+                      <td>PHP</td>
+                      <td>Composer</td>
+                    </tr>
+                    <tr>
+                      <td>MySQL</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
         </div>
@@ -90,14 +105,14 @@
         <div class="container p-5">
           <!-- title -->
           <div class="row mb-5">
-            <div class="col-md text-center">
+            <div class="col text-center">
               <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Project</h2>
             </div>
           </div>
 
           <!-- content -->
           <div class="row">
-            <div class="col-md-10 offset-1">
+            <div class="col-sm-10 offset-sm-1">
               <div id="carouselProject" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselProject" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -160,19 +175,19 @@
         <div class="container p-5">
           <!-- title -->
           <div class="row mb-5">
-            <div class="col-md text-center">
+            <div class="col text-center">
               <h2 class="fw-bold fst-italic text-uppercase letter-spacing">Contact Me</h2>
             </div>
           </div>
 
           <!-- content -->
           <div class="row mb-5">
-            <div class="col-md-10 offset-md-1">
+            <div class="col-sm-10 offset-sm-1">
               <p class="mb-3 text-white fs-5">If you'd like to work with me, would like more information, or if you'd like to chat, then email me to get in touch.</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4 offset-1">
+            <div class="col offset-sm-1">
               <a class="btn btn-lg btn-outline-light" href="mailto:zhafari.work@gmail.com?subject=Hello,%20Zhafari!">Email me</a>
               <a class="btn btn-lg btn-outline-light" href="#" role="button" target="_blank"><i class="bi bi-linkedin"></i></a>
               <a class="btn btn-lg btn-outline-light" href="https://github.com/si-bewok" role="button" target="_blank"><i class="bi bi-github"></i></a>
